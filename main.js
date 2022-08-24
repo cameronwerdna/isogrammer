@@ -1,4 +1,4 @@
-//function which takes a string and determines if it is an isogram (word without letter repeats, consecutive or not. )
+//function which takes a  single word and determines if it is an isogram (no letter repeats, consecutive or not. )
 //isogram examples: mighty, incredulous, certain
 
 function isIsogram(str){
@@ -12,6 +12,7 @@ function isIsogram(str){
     return true
   }
 
-
-// isIsogram('string') => true
-// isIsogram('alphabet') => false
+console.log(isIsogram('hello')) // returns false
+console.log(isIsogram('alphabet')) // returns true
+console.log(isIsogram('awful')) // returns true
+console.log(isIsogram('qwertyuiopasdfghjklzxcvbnm')) // returns true
